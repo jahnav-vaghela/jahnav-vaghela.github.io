@@ -1,0 +1,123 @@
+/*
+Author : Jahnav Vaghela 
+Fullstack Web  Web developer 
+This css is for personal profile website. 
+*/
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+html {
+  font-family: Ubuntu, SourceSansPro, "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EDD2F3;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#video-bg {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.viewport-header h1 {
+  /*font-family: 'Syncopate', sans-serif;*/
+  text-transform: uppercase;
+  letter-spacing: 2vw;
+  line-height: 1.2;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.viewport-header h4 {
+  margin-top: 3vh;
+  font-size: 2vw;
+  letter-spacing: 0.3vw;
+}
+
+
+.main-section{
+  max-width: 100%;
+  margin: 108px auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.main-section .section-title{ 
+  background-color: rgba(127,127,127,0.5);
+  padding: 1px 20px;
+}
+
+.main-section .section-title h3{
+  text-transform: uppercase; 
+  font-size: 25px;
+}
+
+.main-section .section-container{
+  padding: 20px;
+  margin: 0px;
+  line-height: 1.5;
+}
+
+.footer-copyright{
+  padding: 30px;
+  background-color: black;
+}
+
+
+/* language  */
+@media (min-width:641px)  {
+  .lang-warp{ 
+    width: 33%; 
+    display: inline-block;
+  }
+}
+.lang-warp .lang{
+  padding: 10px;
+}
+
+.lang .lang-main{ font-size: 1.2em; font-weight: bold; }
+
+.lang .lang-main,
+.lang .lang-sub{
+  width: 50%;
+  display: inline-block;
+}
+.lang .lang-sub{ text-align: right; }
+
+.lang-stranth-brd{ border: 1px solid gray; border-radius: 10px 10px; }
+.lang-stranth{
+  height: 5px;
+  background-color: forestgreen;
+  width: 90%;
+  border-radius: 10px 10px;
+}
+
+.gujarati.lang-stranth{  width: 100%; }
