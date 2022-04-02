@@ -121,3 +121,24 @@ body {
 }
 
 .gujarati.lang-stranth{  width: 100%; }
+
+.job-experience-p a{
+  color: blue;
+  padding: 5px;
+}
+
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  /* border: 1px solid #fff; */
+  border-radius: 3px;
+  /* background-color: transparent; */
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 50px;
+  width: 200px;
+  color: #fff;
+  font-size: 1em;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.6);
+}
